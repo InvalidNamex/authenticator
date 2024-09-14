@@ -118,8 +118,7 @@ class _AuthenticationState extends State<Authentication> {
                   ),
                   InkWell(
                     onTap: () async {
-                      String _url =
-                          'https://firebasestorage.googleapis.com/v0/b/waterco-fd51c.appspot.com/o/app-release.zip?alt=media&token=6ba0b189-0ff3-465c-8b9f-66e3206d9aff';
+                      String _url = 'assets/eit.apk';
                       await _launchInBrowser(Uri.parse(_url));
                     },
                     child: const Text(
