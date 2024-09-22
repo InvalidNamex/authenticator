@@ -118,7 +118,7 @@ class _AuthenticationState extends State<Authentication> {
                   ),
                   InkWell(
                     onTap: () async {
-                      String _url = 'assets/eit.apk';
+                      String _url = 'assets/eit-v1.apk';
                       await _launchInBrowser(Uri.parse(_url));
                     },
                     child: const Text(
